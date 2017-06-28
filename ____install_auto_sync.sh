@@ -2,8 +2,31 @@
 # Copyright (c) 2016-2100,  jielong_lin,  All rights reserved.
 #
 JLLPATH="$(which $0)"
-JLLPATH="$(dirname ${JLLPATH})"
-JLLPATH=$(cd ${JLLPATH};pwd)
+# ./xxx.sh
+# ~/xxx.sh
+# /home/xxx.sh
+# xxx.sh
+if [ x"${JLLPATH}" != x ]; then
+    __CvScriptName=${JLLPATH##*/}
+    __CvScriptPath=${JLLPATH%/*}
+    if [ x"${__CvScriptPath}" = x ]; then
+        __CvScriptPath="$(pwd)"
+    else
+        __CvScriptPath="$(cd ${__CvScriptPath};pwd)"
+    fi
+    if [ x"${__CvScriptName}" = x ]; then
+        echo
+        echo "JLL-Exit:: Not recognize the command \"$0\", then exit - 0"
+        echo
+        exit 0
+    fi 
+else
+    echo
+    echo "JLL-Exit:: Not recognize the command \"$0\", then exit - 1"
+    echo
+    exit 0
+fi
+JLLPATH="${__CvScriptPath}"
 
 #
 # Setup AutoSync 
@@ -18,7 +41,7 @@ function Fn_Setup_AutoSync()
 cat >>tsk.crontab<<EOF
 
 # m  h  dom mon dow command
-  30 1 *   *   *   ${JLLPATH}/._______auto_sync_by_GIT__in_crontab.sh
+  30 1  *   *   *   ${JLLPATH}/._______auto_sync_by_GIT__in_crontab.sh
 
 EOF
             crontab tsk.crontab
