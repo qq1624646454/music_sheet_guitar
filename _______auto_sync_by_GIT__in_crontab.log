@@ -1,2 +1,97 @@
 synchronizing with remote.music_sheet_guitar @2017-07-17_01:30:01
  M _______auto_sync_by_GIT__in_crontab.log
+[master 12fa80a] Changes as follows:  M _______auto_sync_by_GIT__in_crontab.log
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Push Changes to 'remote.music_sheet_guitar' by git push
+ M _______auto_sync_by_GIT__in_crontab.log
+commit 12fa80acf0c8e3341724d55276853e919dca6c4e
+Author: jielong.lin <493164984@qq.com>
+Date:   Mon Jul 17 01:30:04 2017 +0800
+
+
+
+JLL-network:: w3m https://github.com/qq1624646454/jllutils/commits/master
+
+JLL-response:: parsing response for retrieving all git commits
+
+JLL-descend:: commit.id=e0ec829
+JLL-descend:: commit.id=44ac816
+JLL-descend:: commit.id=8dccc32
+JLL-descend:: commit.id=66a8612
+JLL-descend:: commit.id=a98fb23
+JLL-descend:: commit.id=1b2a282
+JLL-descend:: commit.id=93bfd6a
+JLL-descend:: commit.id=98568ad
+JLL-descend:: commit.id=7d7f017
+JLL-descend:: commit.id=8bbd8b9
+JLL-descend:: commit.id=8ec8482
+JLL-descend:: commit.id=93ee78f
+JLL-descend:: commit.id=95b098d
+JLL-descend:: commit.id=d9f086b
+JLL-descend:: commit.id=ae543fd
+JLL-descend:: commit.id=424e006
+JLL-descend:: commit.id=78e87a8
+JLL-descend:: commit.id=d1dc347
+JLL-descend:: commit.id=02ba7fc
+JLL-descend:: commit.id=56c08d0
+JLL-descend:: commit.id=ceabaab
+JLL-descend:: commit.id=cd531e9
+JLL-descend:: commit.id=99513b7
+JLL-descend:: commit.id=d98f487
+JLL-descend:: commit.id=e35abed
+JLL-descend:: commit.id=4318ab1
+JLL-descend:: commit.id=c344abd
+JLL-descend:: commit.id=de05cb9
+JLL-descend:: commit.id=cb3c5a3
+JLL-descend:: commit.id=2d69b68
+JLL-descend:: commit.id=ba23162
+JLL-descend:: commit.id=21ea9aa
+JLL-descend:: commit.id=35d71aa
+JLL-descend:: commit.id=c583434
+JLL-descend:: commit.id=2e695d9
+JLL-check:: local.lastest.commit.id --- remote.commit.id 
+JLL-check:: 12fa80a --- e0ec829
+JLL-check:: 12fa80a --- 44ac816
+JLL-check:: 12fa80a --- 8dccc32
+JLL-check:: 12fa80a --- 66a8612
+JLL-check:: 12fa80a --- a98fb23
+JLL-check:: 12fa80a --- 1b2a282
+JLL-check:: 12fa80a --- 93bfd6a
+JLL-check:: 12fa80a --- 98568ad
+JLL-check:: 12fa80a --- 7d7f017
+JLL-check:: 12fa80a --- 8bbd8b9
+JLL-check:: 12fa80a --- 8ec8482
+JLL-check:: 12fa80a --- 93ee78f
+JLL-check:: 12fa80a --- 95b098d
+JLL-check:: 12fa80a --- d9f086b
+JLL-check:: 12fa80a --- ae543fd
+JLL-check:: 12fa80a --- 424e006
+JLL-check:: 12fa80a --- 78e87a8
+JLL-check:: 12fa80a --- d1dc347
+JLL-check:: 12fa80a --- 02ba7fc
+JLL-check:: 12fa80a --- 56c08d0
+JLL-check:: 12fa80a --- ceabaab
+JLL-check:: 12fa80a --- cd531e9
+JLL-check:: 12fa80a --- 99513b7
+JLL-check:: 12fa80a --- d98f487
+JLL-check:: 12fa80a --- e35abed
+JLL-check:: 12fa80a --- 4318ab1
+JLL-check:: 12fa80a --- c344abd
+JLL-check:: 12fa80a --- de05cb9
+JLL-check:: 12fa80a --- cb3c5a3
+JLL-check:: 12fa80a --- 2d69b68
+JLL-check:: 12fa80a --- ba23162
+JLL-check:: 12fa80a --- 21ea9aa
+JLL-check:: 12fa80a --- 35d71aa
+JLL-check:: 12fa80a --- c583434
+JLL-check:: 12fa80a --- 2e695d9
+
+Check if align with remote via __isAlign=1
+Pull Changes from 'remote.music_sheet_guitar' by git pull 
+Already up-to-date.
+commit 12fa80acf0c8e3341724d55276853e919dca6c4e
+Author: jielong.lin <493164984@qq.com>
+Date:   Mon Jul 17 01:30:04 2017 +0800
+
+

@@ -230,7 +230,7 @@ fi
 declare -a __lstCommittedIDs
 declare -i __iCommittedIDs=0
 
-_FN_retrieve_git_commits_by_GitURL "https://github.com/qq1624646454/jllutils/commits/master" \
+_FN_retrieve_git_commits_by_GitURL "https://github.com/qq1624646454/music_sheet_guitar/commits/master" \
                                                                      >> _______auto_sync_by_GIT__in_crontab.log
 _FN_is_align_with_git_remote __isAlign  \
                                                                      >> _______auto_sync_by_GIT__in_crontab.log
